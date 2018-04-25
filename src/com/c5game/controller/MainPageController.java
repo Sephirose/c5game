@@ -29,6 +29,14 @@ public class MainPageController {
 		return "dota2";
 	}
 	
+	
+	/**
+	 * 随机获取一个自然数
+	 * 
+	 * @param request
+	 * @param response
+	 * @throws IOException
+	 */
 	@RequestMapping("/getNumber.do")
 	public void getNumber(HttpServletRequest request,HttpServletResponse response) throws IOException {
 		response.setContentType(
