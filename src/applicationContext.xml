@@ -50,18 +50,18 @@
   		value="#{jdbc.pwd}" />      
 	</bean>
 	
-	<bean id="ssfb" 
-	class="org.mybatis.spring.SqlSessionFactoryBean">
-		<property name="dataSource" ref="ds"/>
-		<property name="mapperLocations" 
-		value="classpath:com/c5game/entity/*.xml"/>
-	</bean>
+<!-- 	<bean id="ssfb"  -->
+<!-- 	class="org.mybatis.spring.SqlSessionFactoryBean"> -->
+<!-- 		<property name="dataSource" ref="ds"/> -->
+<!-- 		<property name="mapperLocations"  -->
+<!-- 		value="classpath:com/c5game/entity/*.xml"/> -->
+<!-- 	</bean> -->
 	
-	<bean 
-		class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-		<property name="basePackage" 
-		value="com.c5game.dao"/>
-	</bean>
+<!-- 	<bean  -->
+<!-- 		class="org.mybatis.spring.mapper.MapperScannerConfigurer"> -->
+<!-- 		<property name="basePackage"  -->
+<!-- 		value="com.c5game.dao"/> -->
+<!-- 	</bean> -->
 	
 	
 	
